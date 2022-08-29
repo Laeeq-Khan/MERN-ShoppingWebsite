@@ -1,5 +1,6 @@
 {
   "name": "y",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,5 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "react-dotenv": "^0.1.3"
+  }
 }
